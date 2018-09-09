@@ -56,7 +56,7 @@ On **Ubuntu** , follow [these instructions](http://coffeeplusplus.z11.de/phpBB3/
 I also generated the [.xmodmap](http://coffeeplusplus.z11.de/.xmodmap-ENTI-key++) file from the **MS** **Keyboard Layout Creator** Map with this conversion tool i developed: [klc2xmodmap](http://coffeeplusplus.z11.de/klc2xmodmap/xmodmap2.php).
 
 #### Mac OS
-Download the layout (which was created with Ukulele) and copy it as root into the folder
+Download the layout [mac/Coffee++.keylayout](mac/Coffee%2B%2B.keylayout) (which was created with **Ukulele**) and copy it as root into the folder
 
     ~/Library/Keyboard\ Layouts/Coffee++.keylayout
 
