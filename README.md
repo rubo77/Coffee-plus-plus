@@ -2,7 +2,7 @@
 
 (free under GNU-Licence by Ruben Barkow) 
 
-## A one-hand typing keyboardlayout for programmers that can be used optional with both-hands
+### A one-hand typing keyboardlayout for programmers that can be used optional with both-hands
 
  
 
@@ -34,7 +34,8 @@ Unlike the [Left-Hand-Dvorak-Layout](http://en.wikipedia.org/wiki/Dvorak_Simplif
 
 **Free Download:**
 
-***Windows XP:*** .![winXP|20x20](http://coffeeplusplus.z11.de/pics/20x20xwin.jpg.pagespeed.ic.N1eVmOPJTE.jpg) [Portable ENTI-key++V21.zip](http://downloads.sourceforge.net/pkl/Portable_ENTI-key_0-2.zip) (thanks to [Máté Farkas](http://www.autohotkey.com/forum/viewtopic.php?t=28447))
+### Windows XP ![winXP|20x20](http://coffeeplusplus.z11.de/pics/20x20xwin.jpg.pagespeed.ic.N1eVmOPJTE.jpg)
+[Portable ENTI-key++V21.zip](http://downloads.sourceforge.net/pkl/Portable_ENTI-key_0-2.zip) (thanks to [Máté Farkas](http://www.autohotkey.com/forum/viewtopic.php?t=28447))
 
 with this Tool, you have the full AltGr-functionality. (Just add 'pkl.exe' to your autostart)
 
@@ -49,12 +50,20 @@ or use your **Caps Lock Key** as Left **Backspace** with this Codepage:
 
 If you have a mouse with extra buttons, it is usefull to set one of the extra buttons to AltGr.
 
- ![Linux|20x20](http://coffeeplusplus.z11.de/pics/20x20xlinux.jpg.pagespeed.ic.5a4MYFyfFe.jpg) **Linux:**
+### Linux  ![Linux|20x20](http://coffeeplusplus.z11.de/pics/20x20xlinux.jpg.pagespeed.ic.5a4MYFyfFe.jpg)
 On **Ubuntu** , follow [these instructions](http://coffeeplusplus.z11.de/phpBB3/viewtopic.php?f=6&amp;t=13&amp;p=34#p34)
 
 I also generated the [.xmodmap](http://coffeeplusplus.z11.de/.xmodmap-ENTI-key++) file from the **MS** **Keyboard Layout Creator** Map with this conversion tool i developed: [klc2xmodmap](http://coffeeplusplus.z11.de/klc2xmodmap/xmodmap2.php).
 
- 
+#### Mac OS
+Download the layout (which was created with Ukulele) and copy it as root into the folder
+
+    ~/Library/Keyboard\ Layouts/Coffee++.keylayout
+
+Open your Keyboart settings and add the Layout Coffee++ there.
+
+For more detailed infos see the instruction at http://wiki.neo-layout.org/wiki/Neo%20auf%20dem%20Apple%20Macintosh%20einrichten which works the same way.
+
 
 ## *How to start typing:*
 
