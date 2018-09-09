@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 1.8b6 on 2008-06-01 at 09:51 (CEST)-->
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-09-09 at 20:54 (MESZ)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-09-09 at 22:10 (MESZ)-->
 <keyboard group="126" id="-49" name="Coffee++" maxout="3">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="commonModifiers"/>
@@ -61,7 +61,7 @@
 			<key code="13" output="i"/>
 			<key code="14" action="e"/>
 			<key code="15" action="r"/>
-			<key code="16" action="y"/>
+			<key code="16" action="y 1"/>
 			<key code="17" action="t"/>
 			<key code="18" output="p"/>
 			<key code="19" action="2"/>
@@ -72,7 +72,7 @@
 			<key code="24" output="!"/>
 			<key code="25" output="+"/>
 			<key code="26" action="7"/>
-			<key code="27" output=".."/>
+			<key code="27" action=".. 2"/>
 			<key code="28" action="8"/>
 			<key code="29" output="*"/>
 			<key code="30" output="&#x003C;"/>
@@ -545,7 +545,7 @@
 			<key code="17" output="*"/>
 			<key code="18" output="!"/>
 			<key code="19" output="&#x0022;"/>
-			<key code="20" output="⁄"/>
+			<key code="20" output="\"/>
 			<key code="21" output="1/2"/>
 			<key code="22" output="̂"/>
 			<key code="23" output="%"/>
@@ -1160,7 +1160,7 @@
 		<!-- actions for initiating dead key states -->
 		<!-- actions for completing dead key states -->
 		<action id="&#x0009;">
-			<when state="none" output="&#x0009;"/>
+			<when state="none" output="&#x0008;"/>
 			<when state="tildebelow" output="ö"/>
 		</action>
 		<action id=" ">
@@ -1213,6 +1213,15 @@
 		<action id="*">
 			<when state="none" output="€"/>
 			<when state="specials" output="Ȣ"/>
+		</action>
+		<action id="..">
+			<when state="none" next="diaeresis"/>
+		</action>
+		<action id=".. 1">
+			<when state="none" next="diaeresis"/>
+		</action>
+		<action id=".. 2">
+			<when state="none" next="diaeresis"/>
 		</action>
 		<action id="2">
 			<when state="none" output="f"/>
@@ -1392,7 +1401,7 @@
 			<when state="stroke" output="Ł"/>
 		</action>
 		<action id="M">
-			<when state="none" output="⁄"/>
+			<when state="none" output="\"/>
 			<when state="acute" output="Ḿ"/>
 			<when state="circumflex" output="M̂"/>
 			<when state="dotabove" output="Ṁ"/>
@@ -1949,6 +1958,21 @@
 			<when state="hooked" output="ɖ"/>
 		</action>
 		<action id="y">
+			<when state="none" output="z"/>
+			<when state="acute" output="ý"/>
+			<when state="circumflex" output="ŷ"/>
+			<when state="diaeresis" output="ÿ"/>
+			<when state="dotabove" output="ẏ"/>
+			<when state="dotbelow" output="ỵ"/>
+			<when state="grave" output="ỳ"/>
+			<when state="hook" output="ỷ"/>
+			<when state="hooked" output="ƴ"/>
+			<when state="macron" output="ȳ"/>
+			<when state="ringabove" output="ẙ"/>
+			<when state="specials" output="ȝ"/>
+			<when state="tilde" output="ỹ"/>
+		</action>
+		<action id="y 1">
 			<when state="none" output="z"/>
 			<when state="acute" output="ý"/>
 			<when state="circumflex" output="ŷ"/>
